@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h1>Default</h1>
+    <a href="/cadastraraluno">Cadastrar Aluno</a>
+
+    <form method="post" action="default/logar">
+        Usuário
+        <input name="usuario" type="text" />
+        Senha
+        <input name="usuario" type="password" />
+        <input type="submit" vaçue="Entrar"/>
+
+        @ViewBag.Msg
+    </form>
+</body>
+</html>
